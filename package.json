@@ -1,0 +1,17 @@
+{
+  "name": "firehose-unzip-data",
+  "version": "1.0.0",
+  "description": "A lambda function to decompress data field, parse the data in json and rejoin in a new record",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adauto Martins",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.256.1",
+    "bluebird": "^3.5.1",
+    "extend": "^3.0.1",
+    "lodash": "^4.17.10"
+  }
+}
